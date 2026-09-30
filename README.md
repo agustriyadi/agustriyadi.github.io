@@ -1,33 +1,30 @@
 # Agus Triyadi — Portfolio
 
-Portfolio profesional Agus Triyadi, dipublikasikan sebagai static site melalui GitHub Pages.
+Portofolio profesional Agus Triyadi sebagai static site di GitHub Pages. Situs ini memakai HTML, CSS, JavaScript, dan file konten yang mudah diedit—tanpa Laravel dan tanpa halaman admin/login buatan.
 
-## Struktur konten (Choice A)
+## Choice A: edit konten melalui GitHub
 
-Presentasi berada di `index.html`, `assets/css/site.css`, dan `assets/js/site.js`. Konten editable dipisahkan ke file JSON berikut:
+Presentasi berada di `index.html`, `assets/css/site.css`, dan `assets/js/site.js`. Konten editable berada di `content/profile.json`, `content/skills.json`, `content/experience.json`, `content/focus.json`, `content/projects.json`, dan dokumentasi `content/projects/python-data-analysis.md`.
 
-- `content/profile.json` — nama, headline, lokasi, about, email, dan Instagram
-- `content/skills.json` — daftar keahlian
-- `content/experience.json` — pengalaman kerja dan tanggung jawab
-- `content/focus.json` — area fokus saat ini
-- `content/projects.json` — slot dokumentasi proyek yang belum memiliki data terkonfirmasi
+Untuk mengubah konten, buka file di GitHub, pilih ikon pensil, edit JSON/Markdown dengan hati-hati, lalu commit ke `main`. GitHub Pages akan membangun ulang situs. GitHub adalah workflow editor dan autentikasi yang digunakan; tidak ada login admin client-side yang tidak aman.
 
-Edit file JSON melalui GitHub: buka file → ikon pensil → simpan perubahan dengan commit ke branch `main`. GitHub Pages akan mempublikasikan perubahan setelah build selesai. Tidak ada login admin buatan; GitHub adalah workflow editor dan autentikasi yang digunakan.
+## Menjalankan lokal
 
-## Menjalankan dan memeriksa lokal
-
-Jangan membuka `index.html` langsung jika ingin memuat JSON karena browser dapat memblokir `fetch` dari `file://`. Jalankan server static:
+Jalankan server static dari root repository (jangan membuka `index.html` langsung karena `fetch` JSON dapat diblokir):
 
 ```bash
 python -m http.server 8000
 ```
 
-Lalu buka <http://localhost:8000>.
+Buka <http://localhost:8000>.
+
+## Dokumentasi dan batasan publikasi
+
+- Foto profil yang dipakai hanya `assets/gallery/yogyakarta.jpg`.
+- Empat PDF di `assets/documents/` adalah sampel portofolio mandiri yang fiktif, bukan pekerjaan klien dan tidak memuat klaim hasil nyata.
+- Dokumentasi Python/data analysis berasal dari peninjauan arsip belajar `code_snippets-master.zip` (18 notebook dan berbagai latihan). Arsip ZIP mentah tidak diunggah.
+- Pengalaman kerja, belajar mandiri, sampel fiktif, dan fokus saat ini ditampilkan sebagai kategori terpisah.
 
 ## Deployment
 
-GitHub Pages menggunakan branch `main` dengan source folder `/ (root)`.
-
-## Batasan publikasi
-
-Hanya `assets/gallery/yogyakarta.jpg` yang digunakan sebagai foto profil. Dokumentasi visual/gallery dihapus dari website, dan foto lain tidak disimpan di repository. Belum ada proyek selesai yang ditampilkan: `content/projects.json` hanya berisi placeholder yang ditandai. ZIP materi belajar data-analysis tidak disertakan dalam build ini.
+GitHub Pages menggunakan branch `main` dengan source folder `/ (root)`. Repository: <https://github.com/agustriyadi/agustriyadi.github.io>.
