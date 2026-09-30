@@ -6,8 +6,9 @@ Website portfolio personal Agus Triyadi, dibuat sebagai static site dan dipublik
 
 - Profil singkat dan positioning profesional
 - Fokus pada trading, teknologi, dan content creation
-- Ringkasan keahlian
-- Tautan ke profil GitHub
+- Ringkasan keahlian, termasuk Agentic AI dan Desain Canva
+- Dokumentasi perjalanan dan pendakian
+- Tautan GitHub dan Instagram
 - Responsive layout untuk desktop dan mobile
 
 ## Menjalankan secara lokal
