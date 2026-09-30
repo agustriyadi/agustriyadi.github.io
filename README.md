@@ -30,4 +30,4 @@ GitHub Pages menggunakan branch `main` dengan source folder `/ (root)`.
 
 ## Batasan publikasi
 
-Foto yang sudah ada di `assets/gallery/` digunakan kembali. Belum ada proyek selesai yang ditampilkan: `content/projects.json` hanya berisi placeholder yang ditandai. ZIP materi belajar data-analysis tidak disertakan dalam build ini.
+Hanya `assets/gallery/yogyakarta.jpg` yang digunakan sebagai foto profil. Dokumentasi visual/gallery dihapus dari website, dan foto lain tidak disimpan di repository. Belum ada proyek selesai yang ditampilkan: `content/projects.json` hanya berisi placeholder yang ditandai. ZIP materi belajar data-analysis tidak disertakan dalam build ini.
