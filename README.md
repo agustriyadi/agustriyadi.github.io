@@ -1,26 +1,33 @@
 # Agus Triyadi — Portfolio
 
-Website portfolio personal Agus Triyadi, dibuat sebagai static site dan dipublikasikan melalui GitHub Pages.
+Portfolio profesional Agus Triyadi, dipublikasikan sebagai static site melalui GitHub Pages.
 
-## Isi website
+## Struktur konten (Choice A)
 
-- Profil singkat dan positioning profesional
-- Fokus pada trading, teknologi, dan content creation
-- Ringkasan keahlian, termasuk Agentic AI dan Desain Canva
-- Dokumentasi perjalanan dan pendakian
-- Tautan GitHub dan Instagram
-- Responsive layout untuk desktop dan mobile
+Presentasi berada di `index.html`, `assets/css/site.css`, dan `assets/js/site.js`. Konten editable dipisahkan ke file JSON berikut:
 
-## Menjalankan secara lokal
+- `content/profile.json` — nama, headline, lokasi, about, email, dan Instagram
+- `content/skills.json` — daftar keahlian
+- `content/experience.json` — pengalaman kerja dan tanggung jawab
+- `content/focus.json` — area fokus saat ini
+- `content/projects.json` — slot dokumentasi proyek yang belum memiliki data terkonfirmasi
 
-Buka `index.html` langsung di browser, atau jalankan static server sederhana:
+Edit file JSON melalui GitHub: buka file → ikon pensil → simpan perubahan dengan commit ke branch `main`. GitHub Pages akan mempublikasikan perubahan setelah build selesai. Tidak ada login admin buatan; GitHub adalah workflow editor dan autentikasi yang digunakan.
+
+## Menjalankan dan memeriksa lokal
+
+Jangan membuka `index.html` langsung jika ingin memuat JSON karena browser dapat memblokir `fetch` dari `file://`. Jalankan server static:
 
 ```bash
 python -m http.server 8000
 ```
 
-Lalu buka http://localhost:8000.
+Lalu buka <http://localhost:8000>.
 
 ## Deployment
 
-Website ini menggunakan GitHub Pages dari branch `main` dengan source folder `/ (root)`.
+GitHub Pages menggunakan branch `main` dengan source folder `/ (root)`.
+
+## Batasan publikasi
+
+Foto yang sudah ada di `assets/gallery/` digunakan kembali. Belum ada proyek selesai yang ditampilkan: `content/projects.json` hanya berisi placeholder yang ditandai. ZIP materi belajar data-analysis tidak disertakan dalam build ini.

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "title": "Website & system development",
+      "label": "01",
+      "description": "Membangun website dan sistem digital yang rapi, berguna, dan mudah dipahami.",
+      "status": "Focus area"
+    },
+    {
+      "title": "AI & automation",
+      "label": "02",
+      "description": "Mengeksplorasi Agentic AI dan otomasi untuk membantu menyelesaikan kebutuhan nyata.",
+      "status": "Focus area"
+    },
+    {
+      "title": "Content & documentation",
+      "label": "03",
+      "description": "Mengubah proses dan insight menjadi konten serta dokumentasi yang bernilai.",
+      "status": "Focus area"
+    }
+  ]
+}

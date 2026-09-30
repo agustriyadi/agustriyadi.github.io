@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "title": "Project documentation slot",
+      "status": "Awaiting confirmed project data",
+      "description": "Project title, purpose, role, process, tools, result, evidence, and link will be added here after confirmation."
+    },
+    {
+      "title": "Learning & experiments",
+      "status": "Reserved",
+      "description": "A documentation-ready space for work that is safe to publish and clearly described as learning, practice, or an active build."
+    }
+  ],
+  "note": "No completed projects are listed yet. The learning-data ZIP is intentionally not included in this site."
+}
