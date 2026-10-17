@@ -1,20 +1,47 @@
 <!doctype html>
 <html lang="id">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Portofolio Agus Triyadi — pengembangan sistem, AI dan otomasi, serta konten dan dokumentasi.">
-<title>Agus Triyadi — Portofolio</title><link rel="stylesheet" href="assets/css/site.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portofolio Agus Triyadi — pengembangan sistem, AI dan otomasi, serta konten dan dokumentasi.">
+  <title>Agus Triyadi — Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-<a class="skip-link" href="#main-content">Lewati ke konten utama</a>
-<header class="site-header wrap"><a class="wordmark" href="#top"><span class="wordmark-mark">AT</span><span>Agus Triyadi</span></a><nav aria-label="Navigasi utama"><a href="#about">Tentang</a><a href="#skills">Keahlian</a><a href="#experience">Pengalaman</a><a href="#focus">Fokus</a><a href="#projects">Dokumentasi</a><a href="#contact">Kontak</a></nav></header>
-<main id="main-content">
-<section class="hero wrap" id="top"><div class="hero-copy"><p class="eyebrow">Portfolio pribadi <span>/</span> Indonesia</p><h1>Agus<br><em>Triyadi.</em></h1><p class="hero-lead" data-profile="headline"></p><div class="actions"><a class="button button-dark" href="#projects">Lihat dokumentasi <span>↓</span></a><a class="button button-outline" data-profile-link="email" href="mailto:agus130820@gmail.com">Kirim email <span>↗</span></a></div></div><figure class="portrait"><img src="assets/gallery/yogyakarta.jpg" alt="Agus Triyadi di Yogyakarta"><figcaption>Creator · Freelancer</figcaption></figure></section>
-<section id="about"><div class="wrap"><div class="section-heading"><p class="eyebrow">01 / Tentang saya</p><div><h2>Teknologi yang dekat dengan kebutuhan nyata.</h2><p class="section-note">Ruang untuk memperkenalkan cara berpikir, bekerja, dan terus bertumbuh.</p></div></div><div class="about-grid"><article class="paper-card"><p class="card-index">01</p><h3>Profil</h3><p data-profile="about"></p></article><article class="paper-card"><p class="card-index">02</p><h3>Cara saya bekerja</h3><p data-profile="workingStyle"></p></article></div></div></section>
-<section id="skills"><div class="wrap"><div class="section-heading"><p class="eyebrow">02 / Keahlian</p><div><h2>Keahlian yang sedang saya kembangkan</h2><p class="section-note">Kumpulan kemampuan yang saya gunakan untuk belajar dan mengerjakan dokumentasi.</p></div></div><div class="skill-list" data-skills></div></div></section>
-<section id="experience"><div class="wrap"><div class="section-heading"><p class="eyebrow">03 / Pengalaman kerja</p><div><h2>Belajar dari tanggung jawab sehari-hari.</h2><p class="section-note">Pengalaman operasional yang membentuk ketelitian dan tanggung jawab.</p></div></div><div class="timeline" data-experience></div></div></section>
-<section id="focus"><div class="wrap"><div class="section-heading"><p class="eyebrow">04 / Fokus pekerjaan</p><div><h2>Area yang sedang saya bangun.</h2><p class="section-note">Fokus ini menjadi dasar kerja, eksperimen, dan dokumentasi berikutnya.</p></div></div><div class="focus-grid" data-focus></div></div></section>
-<section id="projects"><div class="wrap"><div class="section-heading"><p class="eyebrow">05 / Dokumentasi proyek</p><div><h2>Contoh kerja yang bisa ditinjau.</h2><p class="section-note">Sampel mandiri dan catatan belajar; bukan klaim pekerjaan klien atau hasil komersial.</p></div></div><div class="project-list" data-projects></div><p class="project-note" data-project-note></p></div></section>
-<section id="contact"><div class="wrap contact-card"><div><p class="eyebrow">06 / Mari terhubung</p><h2>Punya ide atau peluang kerja sama?</h2><p>Untuk kerja sama, peluang proyek, atau kolaborasi, silakan hubungi saya.</p></div><div class="actions"><a class="button button-dark" data-profile-link="email" href="mailto:agus130820@gmail.com">Email saya <span>↗</span></a><a class="button button-outline" data-profile-link="instagram" href="https://www.instagram.com/agstr.yd_/" target="_blank" rel="noopener noreferrer">Instagram <span>↗</span></a><a class="button button-outline" href="https://github.com/agustriyadi" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div></div></section>
-</main><footer class="wrap"><span>© <span data-year>2026</span> Agus Triyadi</span><span>Hidup Seperti Lary !!</span></footer><noscript><p class="noscript">Aktifkan JavaScript untuk memuat konten portfolio.</p></noscript><script src="assets/js/site.js" defer></script>
-</body></html>
+  <a class="skip-link" href="#main-content">Lewati ke konten</a>
+  <header class="site-nav" id="site-nav">
+    <a class="nav-logo" href="#top">AT <em>Agus Triyadi</em></a>
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#about">tentang</a><a href="#skills">keahlian</a><a href="#experience">pengalaman</a><a href="#focus">fokus</a><a href="#projects">dokumentasi</a><a href="#contact">kontak</a>
+    </nav>
+    <div class="nav-status"><span class="status-dot"></span> open to work</div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero container" id="top">
+      <div class="hero-eyebrow"><span class="status-dot"></span><span>portofolio pribadi · Indonesia</span></div>
+      <h1>Agus <em>Triyadi.</em></h1>
+      <p class="hero-sub" data-profile="headline"></p>
+      <div class="hero-actions"><a class="button" href="#projects">Lihat dokumentasi <span>↓</span></a><a class="button button-muted" data-profile-link="email" href="mailto:agus130820@gmail.com">Kirim email <span>↗</span></a></div>
+      <div class="scroll-hint">SCROLL</div>
+    </section>
+
+    <section id="about"><div class="container"><span class="section-label">01 / tentang saya</span><div class="about-grid reveal"><div><h2>Teknologi yang dekat dengan <em>kebutuhan nyata.</em></h2><p class="body-copy" data-profile="about"></p><p class="body-copy" data-profile="workingStyle"></p><div class="badges"><span>Creator</span><span>Freelancer</span><span>Indonesia</span></div><figure class="portrait"><img src="assets/gallery/yogyakarta.jpg" alt="Agus Triyadi di Yogyakarta"><figcaption>Creator · Freelancer</figcaption></figure></div><div class="about-cards"><article class="card"><span class="card-number">01</span><h3>Profil</h3><p>Generalis dengan latar belakang Teknik Informatika yang tertarik pada titik temu antara teknologi, kreativitas, dan problem-solving.</p></article><article class="card"><span class="card-number">02</span><h3>Cara saya bekerja</h3><p>Mendokumentasikan proses, menguji hasil, dan membagikan apa yang berhasil maupun yang masih perlu diperbaiki.</p></article></div></div></div></section>
+
+    <section id="skills"><div class="container"><span class="section-label">02 / keahlian</span><h2 class="section-title reveal">Keahlian yang sedang <em>saya kembangkan.</em></h2><div class="skills-grid" data-skills></div></div></section>
+    <section id="experience"><div class="container"><span class="section-label">03 / pengalaman kerja</span><h2 class="section-title reveal">Belajar dari <em>tanggung jawab sehari-hari.</em></h2><div class="experience-list" data-experience></div></div></section>
+    <section id="focus"><div class="container"><span class="section-label">04 / fokus pekerjaan</span><h2 class="section-title reveal">Area yang sedang <em>saya bangun.</em></h2><div class="focus-grid" data-focus></div></div></section>
+    <section id="projects"><div class="container"><span class="section-label">05 / dokumentasi proyek</span><h2 class="section-title reveal">Contoh kerja yang bisa ditinjau.</h2><p class="section-note reveal">Sampel mandiri dan catatan belajar — bukan klaim pekerjaan klien atau hasil komersial.</p><div class="projects-grid" data-projects></div><p class="project-note" data-project-note></p></div></section>
+
+    <section id="contact"><div class="container"><div class="contact-card reveal"><span class="section-label">06 — terhubung</span><h2>Ada ide?<br><em>Mari bicara.</em></h2><p>Terbuka untuk diskusi proyek, peluang kerja, kolaborasi, dan pertukaran ide.</p><a class="contact-button" data-profile-link="email" href="mailto:agus130820@gmail.com">Kirim email ↗</a><div class="contact-links"><a data-profile-link="instagram" href="https://www.instagram.com/agstr.yd_/" target="_blank" rel="noopener noreferrer"><span>Instagram</span><span>↗</span></a><a href="https://github.com/agustriyadi" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span>↗</span></a><a data-profile-link="email" href="mailto:agus130820@gmail.com"><span>Email</span><span>↗</span></a></div></div></div></section>
+  </main>
+
+  <footer class="container footer"><span>© <span data-year></span> Agus Triyadi</span><span>Dibuat dengan rasa ingin tahu dan secangkir kopi.</span><span>DESIGN · BUILD · LEARN</span></footer>
+  <button class="scroll-top" id="scroll-top" aria-label="Kembali ke atas">↑</button>
+  <noscript><p class="noscript">Aktifkan JavaScript untuk memuat konten portofolio.</p></noscript>
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>
