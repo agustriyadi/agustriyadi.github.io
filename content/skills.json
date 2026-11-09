@@ -1,1 +1,16 @@
-{"items":["Pengembangan website","Python","Pandas & analisis data","HTML / CSS / JavaScript","Desain Canva","Copywriting & konten bilingual","Agentic AI","Otomasi workflow","Microsoft Office","Research & dokumentasi"]}
+{
+  "groups": [
+    {
+      "title": "pengembangan sistem",
+      "items": ["Pengembangan website", "HTML / CSS / JavaScript", "Python", "Pandas & analisis data"]
+    },
+    {
+      "title": "AI & otomasi",
+      "items": ["Agentic AI", "Otomasi workflow"]
+    },
+    {
+      "title": "konten & dokumentasi",
+      "items": ["Desain Canva", "Copywriting & konten bilingual", "Microsoft Office", "Research & dokumentasi"]
+    }
+  ]
+}

@@ -2,9 +2,11 @@
 
 Portofolio profesional Agus Triyadi sebagai static site di GitHub Pages. Situs ini memakai HTML, CSS, JavaScript, dan file konten yang mudah diedit—tanpa Laravel dan tanpa halaman admin/login buatan.
 
-## Choice A: edit konten melalui GitHub
+## Edit konten melalui GitHub
 
 Presentasi berada di `index.html`, `assets/css/site.css`, dan `assets/js/site.js`. Konten editable berada di `content/profile.json`, `content/skills.json`, `content/experience.json`, `content/focus.json`, `content/projects.json`, dan dokumentasi `content/projects/python-data-analysis.md`.
+
+Keahlian di `content/skills.json` dikelompokkan per kategori (`groups` → `title` + `items`); tambah atau pindah skill cukup di dalam grup yang sesuai.
 
 Untuk mengubah konten, buka file di GitHub, pilih ikon pensil, edit JSON/Markdown dengan hati-hati, lalu commit ke `main`. GitHub Pages akan membangun ulang situs. GitHub adalah workflow editor dan autentikasi yang digunakan; tidak ada login admin client-side yang tidak aman.
 
